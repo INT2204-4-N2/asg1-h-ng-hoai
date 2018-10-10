@@ -1,0 +1,71 @@
+people	nguoi
+history	lich su
+art	nghethuat
+world	the gioi
+information	thong tin
+map	ban do
+tow	hai
+family	gia dinh
+government	chinh phu
+health	suc khoe
+system	he thong
+computer	may tinh
+meat	thit
+year	nam
+thank	cam on
+person	nguoi
+reading	doc
+method	phuong thuc
+data	du lieu
+food	thuc an
+understanding	hieu biet
+theory	ly thuyet
+law phat	luat
+understand	hieu
+bird	chim
+literature	van chuong
+problem	van de
+software	phan men
+hardware	phan cung
+control	kiem soat
+knowledge	kien thuc
+power	quyen luc
+ability	kha nang
+economics	kinh te hoc
+love	yeu
+television	tivi
+science	khoa hoc
+library	thu vien
+nature	ban chat
+fact	su that
+product	san pham
+idea	y kien
+temperature	nhiet do
+investment	dau tu
+area	khu vuc, dien tich, be mat
+society	xa hoi
+story	cau chuyen
+industry	nganh cong nghiep
+media	truyen thong
+thing	vat
+oven	lo nuong
+community	cong dong
+definition	dinh nghia
+safety	su an toan
+quality	chat luong
+development	phan trien
+language	ngon ngu
+management	quan ly
+player	nguoi choi
+variety	nhieu
+week	tuan
+country	nuoc, quoc gia
+exam	ky thi
+movie	phim
+organization	co quan
+equipment	thiet bi
+physics	vat ly
+analysis	nghien cuu
+policy	chinh sach
+series	loat
+thought	nghi, tu tuong
