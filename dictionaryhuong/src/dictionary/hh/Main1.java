@@ -66,8 +66,7 @@ public class Main1 implements Initializable {
 
     public void xoaTufx(ActionEvent e) {
         String tu = text2.getText().toLowerCase();
-        String tv = textArea.getText().toLowerCase();
-        if (dictionaryManagement.xoaTu(tu, tv) != 0) {
+        if (dictionaryManagement.xoaTu(tu) != 0) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Dictionary");
             alert.setHeaderText(null);

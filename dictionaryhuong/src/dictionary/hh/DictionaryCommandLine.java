@@ -1,9 +1,10 @@
 package dictionary.hh;
 
+import javax.print.DocFlavor;
 import java.util.Scanner;
 
 public class DictionaryCommandLine {
-   /* DictionaryManagement dictionaryManagement = new DictionaryManagement();
+    DictionaryManagement dictionaryManagement = new DictionaryManagement();
     public void docfile(){
         dictionaryManagement.insertFromFile();
     }
@@ -12,11 +13,11 @@ public class DictionaryCommandLine {
         dictionaryManagement.showAllWords();
     }
 
-    public void Sua(){
-        dictionaryManagement.suaTu();
+    public void Sua(String ta, String tv){
+        dictionaryManagement.suaTu(ta,tv);
     }
 
-    public void cacPhuongthuc(){
+    public void cacPhuongthuc(String tu, String tv){
 
         System.out.println("---------------------------------------------------------------------------------------");
         System.out.println("(1) Tra tu: dictionaryLookup ");
@@ -32,28 +33,18 @@ public class DictionaryCommandLine {
         char chon = scanner1.next().charAt(0);
         switch (chon){
             case '1':
-                dictionaryManagement.dictionaryLookup();
+                dictionaryManagement.dictionaryLookup(tu);
                 break;
             case '2':
-                dictionaryManagement.traDictionary();
+                dictionaryManagement.traDictionary(tu);
                 break;
             case '3':
-                dictionaryManagement.insertFromCommandline();
+                dictionaryManagement.insertFromCommandline(tu,tv);
                 break;
             case '4':
-                dictionaryManagement.xoaTu();
+                dictionaryManagement.xoaTu(tu);
                 break;
         }
 
-        String lap;
-
-        do {
-            System.out.println("Ban co muon chon phuong thuc tiep Y/N ...");
-            lap = scanner1.next();
-            if (lap.equals("Y")){
-                this.cacPhuongthuc();
-            }
-        }while (lap.equals("N") && lap.equals("Y"));
-
-    }*/
+    }
 }

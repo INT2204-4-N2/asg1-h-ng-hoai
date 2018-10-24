@@ -79,26 +79,6 @@ public class DictionaryManagement {
        return null;
     }
 
-   /* public boolean traDictionary(String tu){
-        int dem = 0;
-        int demtu = 0;
-        if (dictionary.list.isEmpty()){
-            System.out.println("Tu dien trong moi ban nhap tu vao tu dien: ");
-        }
-            for (int i = 0 ; i < dictionary.list.size() ; i++ ) {
-                String ta = dictionary.list.get(i).getTarget().substring(0, tu.length());
-                if (ta.equals(tu)) {
-                    dem++;
-                    list1.add(dictionary.list.get(i));
-                }
-            }
-            if (dem != 0){
-                return true;
-            }
-
-        return false;
-    }*/
-
     public int traDictionary(String tu ){
         int dem = 0;
         int sl = tu.length();
@@ -120,7 +100,7 @@ public class DictionaryManagement {
         return dem;
     }
 
-    public int xoaTu(String ta , String tv){
+    public int xoaTu(String ta){
         int dem =0 ;
         if (dictionary.list.isEmpty()){
             System.out.println("Tu dien hien tai dang trong: ");
