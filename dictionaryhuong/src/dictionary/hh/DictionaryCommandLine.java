@@ -3,13 +3,17 @@ package dictionary.hh;
 import java.util.Scanner;
 
 public class DictionaryCommandLine {
-    DictionaryManagement dictionaryManagement = new DictionaryManagement();
+   /* DictionaryManagement dictionaryManagement = new DictionaryManagement();
     public void docfile(){
         dictionaryManagement.insertFromFile();
     }
 
     public void In(){
         dictionaryManagement.showAllWords();
+    }
+
+    public void Sua(){
+        dictionaryManagement.suaTu();
     }
 
     public void cacPhuongthuc(){
@@ -51,6 +55,5 @@ public class DictionaryCommandLine {
             }
         }while (lap.equals("N") && lap.equals("Y"));
 
-    }
-
+    }*/
 }

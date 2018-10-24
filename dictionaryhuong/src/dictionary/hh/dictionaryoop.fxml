@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dictionary.hh.Main">
+   <children>
+      <ImageView fitHeight="446.0" fitWidth="739.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/40_21_1321151493_7_7.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tableView" layoutX="274.0" layoutY="-6.0" opacity="0.94" prefHeight="452.0" prefWidth="467.0">
+        <columns>
+          <TableColumn fx:id="colTarget" prefWidth="190.0" text="ENGLISH" />
+          <TableColumn fx:id="colExplain" prefWidth="275.0" text="VIETNAMESE" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" prefHeight="49.0" prefWidth="274.0" text="DICTIONARY" textFill="YELLOW">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="50.0" text="TRA TU:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text1" layoutY="69.0" opacity="0.74" prefHeight="36.0" prefWidth="215.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="19.0" layoutY="117.0" opacity="0.96" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/images%20(1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="221.0" layoutY="67.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/close-27854_960_720.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="7.0" layoutY="173.0" text="THEM TU/ XOA TU:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="190.0" text="ENGLISH:" textFill="MAGENTA">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text2" layoutX="93.0" layoutY="186.0" opacity="0.86" prefHeight="29.0" prefWidth="180.0">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <Label layoutX="7.0" layoutY="230.0" text="VIETNAMESE:" textFill="MAGENTA">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textArea" layoutX="93.0" layoutY="220.0" opacity="0.81" prefHeight="49.0" prefWidth="180.0">
+         <font>
+            <Font size="13.0" />
+         </font></TextArea>
+      <ImageView fitHeight="36.0" fitWidth="49.0" layoutX="25.0" layoutY="288.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/ba634ffa4d7eb498b533c926370bc2ab.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="52.0" layoutX="186.0" layoutY="288.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/images.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="7.0" layoutY="348.0" prefHeight="25.0" prefWidth="84.0" text="DANH SACH:" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="288.0" mnemonicParsing="false" onAction="#themTuMoi" opacity="0.08" prefHeight="36.0" prefWidth="52.0" />
+      <Button layoutX="186.0" layoutY="286.0" mnemonicParsing="false" onAction="#xoaTufx" opacity="0.08" prefHeight="40.0" prefWidth="52.0" />
+      <Button layoutX="18.0" layoutY="119.0" mnemonicParsing="false" onAction="#phuongThucfx" opacity="0.0" prefHeight="36.0" prefWidth="52.0" />
+      <Button layoutX="217.0" layoutY="67.0" mnemonicParsing="false" onAction="#xoaFx" opacity="0.0" prefHeight="40.0" prefWidth="58.0" />
+      <ImageView fitHeight="40.0" fitWidth="65.0" layoutX="108.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Image/tải%20xuống%20(3).jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="111.0" layoutY="342.0" mnemonicParsing="false" onAction="#inDS" opacity="0.0" prefHeight="36.0" prefWidth="52.0" />
+      <ImageView fitHeight="40.0" fitWidth="64.0" layoutX="111.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Image/dich-vu-sua-chua.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="109.0" layoutY="287.0" mnemonicParsing="false" onAction="#suaTufx" opacity="0.0" prefHeight="36.0" prefWidth="52.0" />
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="194.0" layoutY="119.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/tải%20xuống%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="193.0" layoutY="118.0" mnemonicParsing="false" onAction="#Delete" opacity="0.0" prefHeight="40.0" prefWidth="52.0" />
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="106.0" layoutY="117.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/tải%20xuống.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="105.0" layoutY="116.0" mnemonicParsing="false" onAction="#traGanDung" opacity="0.0" prefHeight="40.0" prefWidth="52.0" />
+   </children>
+</Pane>
