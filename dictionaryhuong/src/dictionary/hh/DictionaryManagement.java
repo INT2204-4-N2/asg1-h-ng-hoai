@@ -37,7 +37,7 @@ public class DictionaryManagement {
     }
 
     public void insertFromFile(){
-        File file = new File("C:\\Baitaplon1\\oop2018baitaplon\\dictionaryhuong\\src\\dictionary\\hh\\Dictionary1.txt");
+        File file = new File("dictionaryhuong/src/dictionary/hh/Dictionary1.txt");
         try(Scanner scanner1 = new Scanner(file)) {
 
             String dong;
